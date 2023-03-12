@@ -1,0 +1,21 @@
+{
+    "name": "mblunck/activitypub",
+    "description": "The ActivityPub protocol is a decentralized social networking protocol based upon the ActivityStreams 2.0 data format.",
+    "type": "typo3-cms-extension",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mblunck\\Activitypub\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "activitypub"
+        }
+    }
+}
